@@ -1,26 +1,277 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <title>Server Ghost</title>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/uikit.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/uikit.js"></script>
+
+    <script src="js/uikit-icons.js"></script>
+
+
+
+    <title>Nickdev Portofolio</title>
+
 </head>
 
 <body>
-<center>
-   <h2>Server Ghostsec</h2>
-    <p id="currentTime"></p>
-</center>
-<div class="container">
-   <article>
-<div class="tab" id="tab"><div class="stnblock">
-<div class="stn1"><h3>Status : Active</h3> 
-<div class="stninfo"> <span class="loc">Hello world</span>
- <span class="bra">Belum ada</span> 
+
+<!-- Navigation Bar -->
+
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+    
+
+    <div class="uk-navbar-left">
+
+        <a href="" class="uk-navbar-item uk-logo uk-light">Nickdev.</a>
+
+    </div>
+
+    <div class="uk-navbar-right">
+
+
+
+        <ul class="uk-navbar-nav uk-light">
+
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+
+            <li><a class="uk-button-text uk-text-capitalize" href="#comunity" uk-scroll>Comunity</a></li>
+
+            <li><a class="uk-button-text uk-text-capitalize" href="#contact" uk-scroll>Contact</a></li>
+
+
+
+        </ul>
+
+
+
+    </div>
+
+</nav>
+
+<!-- Navigation Bar Ends  -->
+
+
+
+<!-- Navigation Bar Mobile -->
+
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+    
+
+    <div class="uk-navbar-left">
+
+        <a href="" class="uk-navbar-item uk-logo uk-light">Nickdev.</a>
+
+    </div>
+
+    <div class="uk-navbar-right">
+
+
+
+        <ul class="uk-navbar-nav uk-light">
+
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+
+
+        </ul>
+
+
+
+    </div>
+
+</nav>
+
+<!-- Change This -->
+
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+
+            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+
+            <li class="uk-active"><a href="#comunity" uk-scroll>Comunity</l>
+
+            <li class="uk-active"><a href="#contact">Contact</a></li> <!--- change to ur email-->
+
+
+
+        </ul>
+
+
+
+
+
+
+
+
+
+    </div>
+
 </div>
-</article>
-  </div>
+
+
+
+<!-- Navigation Bar Mobile Ends -->
+
+<!-- Home -->
+
+<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Nickdev, a Cyber Security, <br>Pentest, and an Security Consultants.</h1>
+
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+
+
+
+
+
+</section>
+
+
+
+<!-- Home Ends -->
+
+<br>
+
+
+
+
+
+<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+
+
+<!-- About Me -->
+
+<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+
+<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+
+<!-- Change here to ur paragraph -->
+
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right">I am an experienced penetration tester with a strong background in cybersecurity. My portfolio showcases various projects where I have identified and addressed vulnerabilities in different systems. I excel in conducting comprehensive security assessments and providing detailed reports to enhance the overall security posture of organizations.</p>
+
+
+
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right">In a notable project, I successfully uncovered critical vulnerabilities in a web application, preventing potential exploitation. My expertise extends to network security, where I have implemented robust measures to safeguard sensitive data. Additionally, I have experience in social engineering assessments, simulating real-world scenarios to evaluate an organization's human factor vulnerabilities.</p>
+
+
+
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right">The commitment to staying abreast of the latest trends and technologies in cybersecurity is evident in my continuous learning. I am dedicated to ensuring the security and resilience of the digital landscape.
+
+Feel free to explore my portfolio for a more detailed overview of information and expertise in this field.</p>
+
+<a href="https://www.instagram.com/appsgake" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="tiktok.com/@garudasec" class="uk-button-text uk-light" uk-icon="tiktok"></a>
+
+
+
+<!-- About Me Ends -->
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+<!-- Projects Section -->
+
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<section id="comunity" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+
+<h3 class="uk-margin-xlarge-left uk-light"></h3>
+
+<p class="uk-margin-xlarge-left">Comunity Follow Channel</p>
+
+
+
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+    <!-- Change all of this to ur projects -->
+
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+
+        <h4>CTWAI ☠️</h4>
+
+        <p>A space for cybersecurity experts and enthusiasts to share knowledge, experiences, and ideas.</p>
+
+        <a class="uk-button-text uk-text-decoration-none" href="https://whatsapp.com/channel/0029VaFdQzLEKyZL8Uwpxa0H">
+
+            <span uk-icon="icon: link">
+
+            </span> Follow Comunity </a>
+
+        </div>
+
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+
+            <h4>Site V2</h4>
+
+            <p>The second website serves other purposes, such as providing information and storing files..</p>
+
+            <a class="uk-button-text uk-text-decoration-none" href="">
+
+                <span uk-icon="icon: link">
+
+                </span> Visit the site </a>
+
+            </div></div>
+
+
+
+<section id="contact" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+
+
+
+            <h4>Contact</h4>
+
+           <a href="mailto:nickdev@outlook.co.id?subject=New%20information%20Message%20email%20Nickdev&body=Hello%20admin">email</a>
+
+
+
+    <br>
+
+
+
+
+
+</section>
+
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+</div>
+
+<!-- Projects Section Ends -->
+
+    
+
 </body>
-</html>
+
+               </html>
